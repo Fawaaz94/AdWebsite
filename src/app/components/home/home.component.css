@@ -1,0 +1,109 @@
+body 
+{
+    font-family:            "Lato", sans-serif;
+    margin:                 0;
+}
+
+.navbar 
+{
+  overflow:                 hidden;
+  background-color:         orange;
+  position:                 fixed;
+  top:                      0;
+  width:                    100%;
+  padding:                  26px;
+}
+
+.navbar span
+{
+    color:  	            white;
+    font-size:              20px;
+    cursor:                 pointer;
+}
+
+.sidenav 
+{
+    display:                none;
+    height:                 100%;
+    width:                  190px;
+    position:               fixed;
+    z-index:                1;
+    top:                    0;
+    left:                   0;
+    background-color:      #666666;
+    overflow-x:             hidden;
+}
+
+.sidenav a 
+{
+    padding:                10px 0 8px 36px;
+    text-decoration:        none;
+    font-size:              20px;
+    color:                  white;
+    display:                block;
+
+}
+
+.sidenav .a:hover 
+{
+    color:                  black;
+    background:             white;
+}
+
+.sidenav .closebtn 
+{
+    font-size:              28px;
+    margin-left:            120px;
+}
+
+@media screen and (max-height: 550px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* This is the form section*/
+
+*{
+    box-sizing: border-box;
+}
+
+.example
+{
+    position:       fixed;
+    width:          600px;
+    left:           300px;
+    top:            20px;
+}
+
+form.example input[type=text] {
+    padding:        10px;
+    font-size:      17px;
+    border:         1px solid black;
+    float:          left;
+    width:          80%;
+    background:     #ffffff;
+}
+
+.example button {
+    float:          left;
+    width:          15%;
+    padding:        10px;
+    background:     white;
+    color:          black;
+    font-size:      17px;
+    border:         1px solid black;
+    border-left:    none;
+    cursor:         pointer;
+}
+
+.example button:hover 
+{
+    border: rgb(54, 14, 233);
+}
+
+form.example input[type=text]:hover {
+
+    border: rgb(54, 14, 233);
+
+}
